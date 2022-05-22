@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <form method="post" id="myform" action="mailto:strila123456780@gmail.com" enctype="text/plain">
+    <table>
+        <tr>
+            <tb>
+                <label for="mail">Логін:</label>
+                <input type="email" id="mail" name="user_mail">
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                <P> Пароль:
+                <INPUT TYPE="password" NAME="p_word">
+            </tb>
+        </tr>
+        <tr>
+            <tb>
+                <P> Повторіть пароль:
+                <INPUT TYPE="password" NAME="p_word">
+            </tb>
+        </tr>
+        
+        <tr>
+            <tb>Дата народження</tb>
+            <tb><input type="date" id="date" name="date" form="myform" required></tb><br>
+        </tr><br>
+        <tr>
+            <tb>
+                Стать<br>
+                <input type='radio' name="gender" value="male" required> Чоловіча<br>
+                <input type='radio' name='gender' value='female'required> Жіноча<br>
+            </tb>
+        </tr><br>
+        <tr>
+            <tb>
+                Вкажіть місто
+                <select name="city" size=1>
+                    <option value="1"> Рівне </option>
+                    <option value="2"> Івано Франківськ </option>
+                    <option value="3" selected> Чернігів </option>
+                    <option value="4"> Суми </option>
+                    <option value="5"> Полтава </option>
+                    <option value="6"> Віниця </option>
+                    <option value="7"> Лучьк </option><br>
+                    </select>
+            </tb><br>
+        </tr>
+        <tr><br>
+        
+            <tb>
+                <input type="submit" value="Відправити">
+            </tb>
+        </tr>
+    </table>
 
+</form>
+</body>
+</html>
